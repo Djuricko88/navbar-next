@@ -1,10 +1,17 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-center {
+  text-align: center;
+  font-size: 50px; /* Adjust the font size as needed */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(156, 148, 148);
 }
 
 .description {
@@ -97,7 +104,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
